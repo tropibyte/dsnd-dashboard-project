@@ -1,0 +1,20 @@
+scikit-learn==1.5.2
+python-fasthtml==0.8.0
+matplotlib==3.9.2
+scipy==1.14.1
+numpy==2.1.2
+pandas==2.2.3
+pytest
+flake8
+ipython
+# python-fasthtml 0.8.0 leaves its transitive dependencies unpinned;
+# current releases of fastcore/starlette break it, so pin the known-good set
+fastcore==1.7.20
+starlette==0.39.2
+uvicorn==0.31.0
+fastlite==0.0.11
+sqlite-minutils==3.37.0.post3
+python-multipart==0.0.12
+setuptools
+# Install the employee_events python package from this repository
+./python-package
